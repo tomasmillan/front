@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { CartContext } from "@/components/CartContext";
 import BarsIcon from "@/components/icons/Bars";
 import SearchIcon from "@/components/icons/SearchIcon";
+import Image from "next/image";
 
 export default function Header() {
   const { cartProducts } = useContext(CartContext);
@@ -11,7 +12,7 @@ export default function Header() {
   return (
     <header className="bg-blue-900 sticky top-0 z-50 flex flex-col md:flex-row justify-between items-center px-4 py-3 md:px-8 md:py-4">
       <Link href="/" className="text-white text-lg font-bold md:mb-0">
-        Orion Aceros
+        <Image src="https://i.ibb.co/TRMH9fz/logo-removebg-preview.png" alt="Orion Aceros" width={273} height={75} />
       </Link>
       <div className="flex items-center">
         <button
