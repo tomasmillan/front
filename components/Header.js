@@ -10,7 +10,7 @@ export default function Header() {
   const [mobileNavActive, setMobileNavActive] = useState(false);
 
   return (
-    <header className="bg-blue-900 sticky top-0 z-50 flex flex-col md:flex-row justify-between items-center px-4 py-3 md:px-8 md:py-4">
+    <header className="bg-gray-900 sticky top-0 z-50 flex flex-col md:flex-row justify-between items-center px-4 py-3 md:px-8 md:py-4">
       <Link href="/" className="text-white text-lg font-bold md:mb-0">
         <Image src="https://i.ibb.co/TRMH9fz/logo-removebg-preview.png" alt="Orion Aceros" width={273} height={75} />
       </Link>
@@ -30,24 +30,24 @@ export default function Header() {
           mobileNavActive ? "block" : "hidden"
         } py-2 md:flex md:justify-center md:gap-8`}
       >
-        <Link href="/" className="text-white block py-2 px-4 hover:bg-blue-600">
+        <Link href="/" className="text-white block py-2 px-4 hover:bg-gray-600 rounded-sm">
           Inicio
         </Link>
         <Link
           href="/products"
-          className="text-white block py-2 px-4 hover:bg-blue-600"
+          className="text-white block py-2 px-4 hover:bg-gray-600 rounded-sm"
         >
           Catálogo
         </Link>
         <Link
           href="/categories"
-          className="text-white block py-2 px-4 hover:bg-blue-600"
+          className="text-white block py-2 px-4 hover:bg-gray-600 rounded-sm"
         >
           Categorías
         </Link>
         <Link
           href="/cart"
-          className="text-white block py-2 px-4 hover:bg-blue-600"
+          className="text-white block py-2 px-4 hover:bg-gray-600 rounded-sm"
         >
           Carrito ({cartProducts.length})
         </Link>

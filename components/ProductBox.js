@@ -36,7 +36,7 @@ export default function ProductBox({
     <div className="relative">
       <Link
         href={url}
-        className="bg-white p-5 rounded-lg flex items-center justify-center"
+        className="bg-white p-5 rounded-lg flex items-center justify-center w-200 h-200"
       >
         <button
           className={`w-10 h-10 p-2 absolute top-0 right-0 bg-transparent border-0 cursor-pointer ${
@@ -54,7 +54,7 @@ export default function ProductBox({
         </Link>
         <div className="flex items-center justify-between mt-2">
           <p className="text-lg font-normal">${price}</p>
-          <FlyingButton white={1} _id={_id} className="bg-gray-400 rounded-2xl p-2 hover:bg-blue-950 delay-200 hover:text-white">
+          <FlyingButton white={1} _id={_id} className="bg-gray-400 rounded-md p-2 hover:bg-slate-600 delay-200 hover:text-white">
             Agregar al Carrito
           </FlyingButton>
         </div>

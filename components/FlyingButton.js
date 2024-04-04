@@ -38,7 +38,7 @@ export default function FlyingButton({ _id, src, white, ...props }) {
       onClick={() => addProduct(_id)}
     >
       <button
-        className="p-4 bg-slate-600 rounded-full flex items-center hover:bg-slate-500 text-gray-900 gap-2"
+        className="p-4 bg-gray-500 rounded-lg flex items-center hover:bg-slate-600 text-gray-900 gap-2"
         onClick={sendImageToCart}
         {...props}
       />
