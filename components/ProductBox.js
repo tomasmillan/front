@@ -53,7 +53,7 @@ export default function ProductBox({
           {title}
         </Link>
         <div className="flex items-center justify-between mt-2">
-          <p className="text-lg font-normal">${price}</p>
+          <p className="text-lg font-normal">Consultar precios.</p>
           <FlyingButton white={1} _id={_id} className="bg-gray-400 rounded-md p-2 hover:bg-slate-600 delay-200 hover:text-white">
             Agregar al Carrito
           </FlyingButton>
