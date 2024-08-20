@@ -14,7 +14,8 @@ export default function App({ Component, pageProps }) {
     const tagManagerArgs = {
       gtmId: 'AW-744057013',
       events: {
-      sendUserInfo: 'userInfo'
+      sendUserInfo: 'userInfo',
+      event: 'ads_conversion_Compra_1',
       }
       }
       TagManager.initialize(tagManagerArgs)
