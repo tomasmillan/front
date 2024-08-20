@@ -4,15 +4,9 @@ import { Product } from "@/models/Product";
 import { mongooseConnect } from "@/lib/mongoose";
 import NewProducts from "@/components/NewProducts";
 import { Setting } from "@/models/Setting";
-import TagManager from "react-gtm-module";
 
 
 export default function HomePage({ featuredProduct, newProducts }) {
-  const tagManagerArgs = {
-    gtmId: 'AW-744057013'
-    };
-    TagManager.initialize(tagManagerArgs);
-    
   return (
     <div>
       <Header />
