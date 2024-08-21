@@ -17,7 +17,7 @@ const Footer = () => {
             Información de contacto
           </h3>
           <p>SOLO VENTA MAYORISTA - ENTREGAS EN CAPITAL y GBA</p>
-          <p>Teléfono: 011 4802-5200</p>
+          <p>Teléfono: <Link href="tel:+541148025200">011 4802-5200</Link></p>
           <p>
             Dirección: Grito de ascensio 3321 - Capital Federal, C.A.B.A,
             Argentina.

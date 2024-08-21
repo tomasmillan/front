@@ -7,7 +7,7 @@ const FloatButton = () => {
     <button className="fixed right-4 bottom-5 z-10">
       {" "}
       <Link
-        href="https://api.whatsapp.com/send?phone=541134826691"
+        href="https://api.whatsapp.com/send?phone=541154287723"
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
